@@ -1,0 +1,50 @@
+section{
+	width: 100%;
+	line-height: 100%;
+	vertical-align: middle;
+	font-size: 10em;
+	text-align: center;
+	padding-top: 50px;
+}
+
+*{transition: all .3s ease;}
+
+#nav{
+	height: 50px;
+	position: fixed;
+	width: 100%;
+	background: rgba(255,0,0,5);
+}
+#nav ul li{
+	float: left;
+	list-style: none;
+	height: 50px;
+	padding: 0px 10px;
+}
+#nav ul li div{
+	line-height: 25px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: black;
+	cursor: pointer;
+}
+#slider{
+	height: 500px;
+	background: gray;
+}
+#work{
+	height: 400px;
+	background: lightgray;
+}
+#team{
+	height: 450px;
+	background:darkgray;
+}
+#news{
+	height: 400px;
+	background: green;
+}
+#contact{
+	height: 350px;
+	background: lightgray;
+}
